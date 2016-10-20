@@ -4,7 +4,10 @@
 .background td { padding: 0;          }
 .lava          { background: red; }
 .wall          { background: white;   }
-.floater       { background: black;   }
+
+.actor	{position: absolute;}
+.player	{background: white;}
+.dead	{background: gold;}
 
 .game {
   overflow: hidden;
