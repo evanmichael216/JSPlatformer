@@ -1,18 +1,28 @@
-.background    { background: green;);
+.background    { background-image: url(../img/thumb-1920-274157.png);
                  table-layout: fixed;
-                 border-spacing: 0;   }
+                 border-spacing: 0;  
+				background-size: 100%;}
 .background td { padding: 0;          }
-.lava          { background: red; }
-.wall          { background: white;   }
+.lava          { background-image: url(../img/hR9768t.gif); }
+.wall          { background-image: url(../img/3h88tndr1sau.png); }
 
 .actor	{position: absolute;}
-.player	{background: white;}
-.dead	{background: gold;}
-.coin	{background: blue;}
-
+.player	{background-image: url(../img/ninja.png);
+		background-size: 150%;}
+.coin	{background: yellow;}
+.enemy {background-image: url(../img/cd610ca6249217e8d591fa550f56fa87.png);
+		background-size: 150%;}
 .game {
   overflow: hidden;
   max-width: 600px;
   max-height: 450px;
   position: relative;
 }
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.spike {background-image: url(../img/Spikes_in_Sonic_the_Hedgehog_4.png);
+		background-size: 100%;}
